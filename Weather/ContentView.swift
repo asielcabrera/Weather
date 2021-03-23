@@ -19,7 +19,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                Section(header: Text("Ciudades")) {
+                Section(header: Text("Cities")) {
                 
                     ForEach(weatherStore.cities, id: \.name) { city in
                             CityRow(city: city)
@@ -29,7 +29,7 @@ struct ContentView: View {
                 }
             }
             .navigationBarItems(leading: EditButton(), trailing: addButton)
-            .navigationBarTitle(Text("Tiempo"))
+            .navigationBarTitle(Text("Weather"))
             .onAppear {
                 if weatherStore.cities.count <= 0 && weatherStore.citiesName.count <= 0{
                     self.isPresentingModal = true
