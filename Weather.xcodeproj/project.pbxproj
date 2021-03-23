@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B213DDF726097D60000C48FF /* CityCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213DDF626097D5F000C48FF /* CityCompletion.swift */; };
 		B213DDFC2609977B000C48FF /* CitySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B213DDFB2609977B000C48FF /* CitySearch.swift */; };
+		B24BB9922609BC4000FE51C5 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24BB9912609BC4000FE51C5 /* LocationProvider.swift */; };
 		B25BA542260829A900A08F37 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BA541260829A900A08F37 /* Location.swift */; };
 		B25BA54A260829C600A08F37 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BA549260829C600A08F37 /* Condition.swift */; };
 		B25BA54F260829E700A08F37 /* AirQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BA54E260829E700A08F37 /* AirQuality.swift */; };
@@ -60,6 +61,7 @@
 /* Begin PBXFileReference section */
 		B213DDF626097D5F000C48FF /* CityCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCompletion.swift; sourceTree = "<group>"; };
 		B213DDFB2609977B000C48FF /* CitySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearch.swift; sourceTree = "<group>"; };
+		B24BB9912609BC4000FE51C5 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
 		B25BA541260829A900A08F37 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		B25BA549260829C600A08F37 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
 		B25BA54E260829E700A08F37 /* AirQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirQuality.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 			children = (
 				B2C9BFCD2607900C001AC4D5 /* WeatherStore.swift */,
 				B213DDF626097D5F000C48FF /* CityCompletion.swift */,
+				B24BB9912609BC4000FE51C5 /* LocationProvider.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -395,6 +398,7 @@
 				B25BA58826085F0500A08F37 /* Astro.swift in Sources */,
 				B2C9C02E260796EF001AC4D5 /* DateExtension.swift in Sources */,
 				B25BA58D26085F1700A08F37 /* Day.swift in Sources */,
+				B24BB9922609BC4000FE51C5 /* LocationProvider.swift in Sources */,
 				B2C9C02D260796EF001AC4D5 /* DoubleExtension.swift in Sources */,
 				B2C9BFCE2607900C001AC4D5 /* WeatherStore.swift in Sources */,
 				B25BA56C26083B8800A08F37 /* CityHeaderView.swift in Sources */,
